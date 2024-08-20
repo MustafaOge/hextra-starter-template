@@ -57,7 +57,7 @@ jobs:
         run: |
           hugo \
             --gc --minify \
-            --baseURL "https://mustafaoge.github.io/hextra-starter-template/"
+            --baseURL "https://mustafaoge.github.io/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
